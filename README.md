@@ -33,9 +33,8 @@ Markdown is a light-weight file format that allows users to write **plain-text**
 ### 3. Create the Jekyll Configuration File
 1. Open VS Code to your project's directory.
 2. Create a new file in this directory called `_config.yml`.
-   1. GitHub Pages automatically uses Jekyll to generate static websites from Markdown files.
-   2. This config file is used to tell GitHub how to create your static website using Jekyll.
-   3. Andrew Etter explains that static website are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute. Using a generator like Jekyll can simplify the process of creating such a website by translating lightweight Markdown into a web page.
+   1. GitHub Pages automatically uses Jekyll to generate static websites from Markdown files. This config file is used to tell GitHub how to create your static website using Jekyll.
+   3. Andrew Etter explains that static websites are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute. Using a generator like Jekyll can simplify the process of creating such a website by translating lightweight Markdown into a web page.
 3. Put the following lines in the `_config.yml` file:
     ```yaml
     remote_theme: daattali/beautiful-jekyll@5.0.0
@@ -52,8 +51,8 @@ Markdown is a light-weight file format that allows users to write **plain-text**
     title: "[your name]"
     name: "[your name]"
     ```
-3. Copy the text from from your Markdown-formatted resume into `index.md`.
-    1. Andrew Etter praises the use of a lightweight markup language like Markdown for how compact it is, how readable it is in raw-form, and how easy it is to learn. Markdown makes it easy to write structured data, perfect for use on the web.
+3. Copy the text from from your **Markdown-formatted** resume into `index.md`.
+    1. Andrew Etter praises the use of a lightweight markup language like Markdown for how **compact** it is, how **readable** it is in raw-form, and how **easy** it is to learn. Markdown makes it easy to write structured data, which is perfect for use on the web.
 
 ### 5. Commit and Push your Changes
 1. Use the terminal to add your changes to prepare for commit by running the following command in your git repository directory: `git add .`.
