@@ -17,37 +17,36 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
 1. Click the **"New"** button under the "Repositories" tab of your GitHub profile.
 ![A screenshot of the repositories tab of a GitHub user profile.](1new-repo.png)
 2. Name the repository `[username].github.io`, where `[username]` is your GitHub username.
-    a. The description should describe the repository on a high level.
-    b. The repository should be **public**.
-    c. It is beneficial for you to add a README to your repository.
-    d. Andrew Etter, in his book "Modern Technical Writing" recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
+   1. The description should describe the repository on a high level.
+   2. The repository should be **public**.
+   3. It is beneficial for you to add a README to your repository.
+   4. Andrew Etter, in his book "Modern Technical Writing" recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
 ![A screenshot of the "Create a new repository" page on GitHub.](2repo-details.png)
 3. Navigate to **"Settings > Pages"** on your repository to ensure that it is live on GitHub Pages from the main branch.
-    a. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
+   1. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
 ![A screenshot of the "Settings > Pages" page on GitHub.](2-1-pages-settings.png)
 
 
 ### Clone the Repository
 4. Navigate to whatever directory you will be downloading this repository to in your terminal. For me (using Linux), the command to do this is `cd ~/technology/projects`.
 5. Clone the repository using SSH by running the command `git clone git@github.com:[username]/[username].github.io`.
-    a. If you do not know how to set up an SSH key with your GitHub account, you can follow the instructions on the [GitHub documentation](https://https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+   1. If you do not know how to set up an SSH key with your GitHub account, you can follow the instructions on the [GitHub documentation](https://https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 
 ### Create the Jekyll Configuration File
 6. Open VS Code to your project's directory.
 7. Create a new file in this directory called `_config.yml`.
-    a. GitHub Pages automatically uses Jekyll to generate static websites from Markdown files.
-    b. This config file is used to tell GitHub how to create your static website using Jekyll.
-    c. Andrew Etter explains that static website are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute.
+   1. GitHub Pages automatically uses Jekyll to generate static websites from Markdown files.
+   2. This config file is used to tell GitHub how to create your static website using Jekyll.
+   3. Andrew Etter explains that static website are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute.
 8. Put the following lines in the `_config.yml` file:
-
     ```yaml
     remote_theme: daattali/beautiful-jekyll@5.0.0
     name: ""
     title: null
     ```
-    a. `remote_theme` adds a theme to the page. This is optional, and can be replaced with a different theme if you find one you like more.
-    b. `name: ""` and `title: null` work to remove the built-in name from the page, which makes it look a bit cleaner for the purpose of a resume. This is also optional, and you may instead choose to set these values to something else if you prefer.
+    1. `remote_theme` adds a theme to the page. This is optional, and can be replaced with a different theme if you find one you like more.
+    2. `name: ""` and `title: null` work to remove the built-in name from the page, which makes it look a bit cleaner for the purpose of a resume. This is also optional, and you may instead choose to set these values to something else if you prefer.
 
 
 ### Create the Index File
@@ -58,7 +57,7 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
     name: "[your name]"
     ```
 11. Copy the text from from your Markdown-formatted resume into `index.md`.
-    a. Andrew Etter praises the use of a lightweight markup language like Markdown for how compact it is, how readable it is in raw-form, and how easy it is to learn. Markdown makes it easy to write structured data, perfect for use on the web.
+    1. Andrew Etter praises the use of a lightweight markup language like Markdown for how compact it is, how readable it is in raw-form, and how easy it is to learn. Markdown makes it easy to write structured data, perfect for use on the web.
 
 
 ### Commit and Push your Changes
