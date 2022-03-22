@@ -19,7 +19,7 @@ Markdown is a light-weight file format that allows users to write **plain-text**
    1. The description should describe the repository on a high level.
    2. The repository should be **public**.
    3. It is beneficial for you to add a README to your repository.
-   4. Andrew Etter, in his book "Modern Technical Writing" (see [more resources](#more-resources) below) recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
+   4. Andrew Etter, in his book "Modern Technical Writing" (see [more resources](#more-resources) below) recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Etter also praises distributed version control systems like Git for their ability to track changes and facilitate collaboration.
 ![A screenshot of the "Create a new repository" page on GitHub.](img/2repo-details.png)
 3. Navigate to **"Settings > Pages"** on your repository to ensure that it is live on GitHub Pages from the main branch.
    1. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
@@ -35,7 +35,7 @@ Markdown is a light-weight file format that allows users to write **plain-text**
 2. Create a new file in this directory called `_config.yml`.
    1. GitHub Pages automatically uses Jekyll to generate static websites from Markdown files.
    2. This config file is used to tell GitHub how to create your static website using Jekyll.
-   3. Andrew Etter explains that static website are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute.
+   3. Andrew Etter explains that static website are a fast, simple, portable, and secure solution for displaying changing information to the public. When compared to PDFs, static websites are much easier to maintain, update, and distribute. Using a generator like Jekyll can simplify the process of creating such a website by translating lightweight Markdown into a web page.
 3. Put the following lines in the `_config.yml` file:
     ```yaml
     remote_theme: daattali/beautiful-jekyll@5.0.0
