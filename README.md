@@ -62,7 +62,7 @@ Markdown is a light-weight file format that allows users to write **plain-text**
 
 Your resume should now be live on GitHub Pages at the URL `[username].github.io`! Congratulations!
 
-![An animated GIF of my resume's static website.](website.gif)
+![An animated GIF of my resume's static website.](img/website.gif)
 
 ## More Resources
 * [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
