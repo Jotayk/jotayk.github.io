@@ -15,16 +15,16 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
 
 ### 1. Create a New Pages Repository on GitHub
 1. Click the **"New"** button under the "Repositories" tab of your GitHub profile.
-![A screenshot of the repositories tab of a GitHub user profile.](1new-repo.png)
+![A screenshot of the repositories tab of a GitHub user profile.](img/1new-repo.png)
 2. Name the repository `[username].github.io`, where `[username]` is your GitHub username.
    1. The description should describe the repository on a high level.
    2. The repository should be **public**.
    3. It is beneficial for you to add a README to your repository.
    4. Andrew Etter, in his book "Modern Technical Writing" recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
-![A screenshot of the "Create a new repository" page on GitHub.](2repo-details.png)
+![A screenshot of the "Create a new repository" page on GitHub.](img/2repo-details.png)
 3. Navigate to **"Settings > Pages"** on your repository to ensure that it is live on GitHub Pages from the main branch.
    1. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
-![A screenshot of the "Settings > Pages" page on GitHub.](2-1-pages-settings.png)
+![A screenshot of the "Settings > Pages" page on GitHub.](img/2-1-pages-settings.png)
 
 
 ### 2. Clone the Pages Repository
