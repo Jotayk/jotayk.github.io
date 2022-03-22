@@ -1,7 +1,7 @@
 # Joshua Dueck's Resume
 
 ## Purpose
-It is critical that software develpers looking for jobs host an up-to-date, easily-readable resume. In this README, we will look at a very easy approach to hosting a resume on GitHub Pages.
+It is important that software develpers host an up-to-date, easily-readable resume. This README's purpose is to teach a fairly basic approach to hosting a resume using Markdown, Jekyll, and GitHub Pages, as well as direct you to some valuable information presented in Andrew Etter's book, "Modern Technical Writing".
 
 ## Prerequisites
 * A Markdown-formatted resume. 
@@ -10,8 +10,7 @@ It is critical that software develpers looking for jobs host an up-to-date, easi
 * Microsoft VS Code.
 
 ## Instructions
-Setting up a basic repository to host a resume on GitHub Pages is simple, and requires only very basic knowledge of Markdown, Jekyll, and Git. Markdown is a light-weight text format that allows users to write **plain-text** files that can easily be converted into HTML to be styled and displayed in a browser. Jekyll is a tool that is used to generate **static websites** from Markdown files. Git is a distributed version control system that allows you to track changes to files, and **GitHub Pages** hosts Git repositories in the form of a static website. If you want to learn more about any of these tools, see the [more resources](#more-resources) section.
-
+Markdown is a light-weight file format that allows users to write **plain-text** files that can easily be converted into HTML to be styled and displayed in a browser. Jekyll is a tool that is used to generate **static websites** from Markdown files. Git is a distributed version control system that allows you to track changes to files, and **GitHub Pages** hosts Git repositories in the form of a static website. If you want to learn more about any of these tools, see the [more resources](#more-resources) section.
 
 ### 1. Create a New Pages Repository on GitHub
 1. Click the **"New"** button under the "Repositories" tab of your GitHub profile.
@@ -26,12 +25,10 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
    1. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
 ![A screenshot of the "Settings > Pages" page on GitHub.](img/2-1-pages-settings.png)
 
-
 ### 2. Clone the Pages Repository
 1. Navigate to whatever directory you will be downloading this repository to in your terminal. For me (using Linux), the command to do this is `cd ~/technology/projects`.
 2. Clone the repository using SSH by running the command `git clone git@github.com:[username]/[username].github.io`.
    1. If you do not know how to set up an SSH key with your GitHub account, you can follow the instructions on the [GitHub documentation](https://https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
-
 
 ### 3. Create the Jekyll Configuration File
 1. Open VS Code to your project's directory.
@@ -48,7 +45,6 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
     1. `remote_theme` adds a theme to the page. This is optional, and can be replaced with a different theme if you find one you like more.
     2. `name: ""` and `title: null` work to remove the built-in name from the page, which makes it look a bit cleaner for the purpose of a resume. This is also optional, and you may instead choose to set these values to something else if you prefer.
 
-
 ### 4. Create the Index File
 1. Create a new file in your repository called `index.md`.
 2. Insert the following at the top of the file, replacing `[your name]` with your name.
@@ -58,7 +54,6 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
     ```
 3. Copy the text from from your Markdown-formatted resume into `index.md`.
     1. Andrew Etter praises the use of a lightweight markup language like Markdown for how compact it is, how readable it is in raw-form, and how easy it is to learn. Markdown makes it easy to write structured data, perfect for use on the web.
-
 
 ### 5. Commit and Push your Changes
 1. Use the terminal to add your changes to prepare for commit by running the following command in your git repository directory: `git add .`.
@@ -71,14 +66,13 @@ Your resume should now be live on GitHub Pages at the URL `[username].github.io`
 
 ## More Resources
 * [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+* [About Jekyll - Tom Johnson](https://idratherbewriting.com/about-jekyll/)
+* [Git and GitHub - Tom Johnson](https://idratherbewriting.com/trends/trends-to-follow-or-forget-git-and-github.html#what-is-git-and-github)
 * [Modern Technical Writing - Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS/ref=sr_1_1?crid=34CWJJ01OLN9L&keywords=andrew+etter&qid=1647982469&sprefix=andrew+ette%2Caps%2C80&sr=8-1)
-* [More about Jekyll](https://idratherbewriting.com/about-jekyll/)
-
 
 ## Authors & Acknowledgements
 * "Beautiful Jekyll" theme by [Dean Attali](https://github.com/daattali/beautiful-jekyll)
 * Thank you to my group members ... for reviewing my assignment
-
 
 ## FAQs
 > Why is Markdown better than a word processor?
