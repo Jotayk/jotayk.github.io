@@ -10,7 +10,7 @@ It is critical that software develpers looking for jobs host an up-to-date, easi
 * Microsoft VS Code.
 
 ## Instructions
-Setting up a basic repository to host a resume on GitHub Pages is simple, and requires only very basic knowledge of Markdown, Jekyll, and Git. Markdown is a light-weight text format that allows users to write **plain-text** files that can easily be converted into HTML to be styled and displayed in a browser. Jekyll is a tool that is used to generate **static websites** from Markdown files. Git is a distributed version control system that allows you to track changes to files, and **GitHub Pages** hosts Git repositories in the form of a static website. If you want to learn more about any of these tools, see the "[More Resources](#more-resources)" section.
+Setting up a basic repository to host a resume on GitHub Pages is simple, and requires only very basic knowledge of Markdown, Jekyll, and Git. Markdown is a light-weight text format that allows users to write **plain-text** files that can easily be converted into HTML to be styled and displayed in a browser. Jekyll is a tool that is used to generate **static websites** from Markdown files. Git is a distributed version control system that allows you to track changes to files, and **GitHub Pages** hosts Git repositories in the form of a static website. If you want to learn more about any of these tools, see the [more resources](#more-resources) section.
 
 
 ### 1. Create a New Pages Repository on GitHub
@@ -20,7 +20,7 @@ Setting up a basic repository to host a resume on GitHub Pages is simple, and re
    1. The description should describe the repository on a high level.
    2. The repository should be **public**.
    3. It is beneficial for you to add a README to your repository.
-   4. Andrew Etter, in his book "Modern Technical Writing" (see "More Resources" below) recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
+   4. Andrew Etter, in his book "Modern Technical Writing" (see [more resources](#more-resources) below) recommends using a README to explain what the repository is for, and what kinds of **dependencies** may be required. Writing a README is a great way to provide context for visitors and contributors to your repository.
 ![A screenshot of the "Create a new repository" page on GitHub.](img/2repo-details.png)
 3. Navigate to **"Settings > Pages"** on your repository to ensure that it is live on GitHub Pages from the main branch.
    1. GitHub Pages should automatically publish repositories with the name format `[username].github.io`.
