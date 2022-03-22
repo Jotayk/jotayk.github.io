@@ -72,7 +72,7 @@ Your resume should now be live on GitHub Pages at the URL `[username].github.io`
 
 ## Authors & Acknowledgements
 * "Beautiful Jekyll" theme by [Dean Attali](https://github.com/daattali/beautiful-jekyll)
-* Thank you to my group members ... for reviewing my assignment
+* Thank you to my group members Winson Lam, Braden Jonsson, and Anas Mehar for reviewing my assignment.
 
 ## FAQs
 > Why is Markdown better than a word processor?
