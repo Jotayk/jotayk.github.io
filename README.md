@@ -1,7 +1,7 @@
 # Joshua Dueck's Resume
 
 ## Purpose
-It is important that software develpers host an up-to-date, easily-readable resume. This README's purpose is to teach a fairly basic approach to hosting a resume using Markdown, Jekyll, and GitHub Pages, as well as direct you to some valuable information presented in Andrew Etter's book, "Modern Technical Writing".
+It is important that software developers host an up-to-date, easily-readable resume. This README's purpose is to teach a fairly basic approach to hosting a resume using Markdown, Jekyll, and GitHub Pages, as well as direct you to some valuable information presented in Andrew Etter's book, "Modern Technical Writing".
 
 ## Prerequisites
 * A Markdown-formatted resume. 
